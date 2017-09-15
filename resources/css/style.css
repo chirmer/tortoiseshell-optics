@@ -1,0 +1,6 @@
+#header-img {
+  background-image: url("resources/img/glasses-bg.png");
+  background-size: cover;
+  height: 30rem;
+  background-position: center;
+}
