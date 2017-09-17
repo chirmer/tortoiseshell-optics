@@ -22,6 +22,16 @@ header img {
   display: flex;
 }
 
+.column {
+  flex-direction: column;
+}
+
+.site-container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .align-center {
   align-items: center;
 }
@@ -32,8 +42,7 @@ header img {
 
 #navbar {
   background-color: cadetblue;
-  width: 960px;
-  margin: 1rem auto;
+  margin-top: 1rem;
   justify-content: space-between;
 }
 
@@ -44,4 +53,18 @@ header img {
   width: auto;
   background-position: center;
   align-items: flex-start;
+}
+
+#img-text {
+  background-color: white;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: -2rem;
+}
+
+#img-text span {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
 }
