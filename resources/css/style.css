@@ -1,4 +1,4 @@
-html {
+html, figcaption {
   font-size: 18px;
   line-height: 1.4rem;
   font-family: Helvetica, sans-serif;
@@ -18,6 +18,10 @@ header img {
   margin-right: 1rem;
 }
 
+figcaption {
+  text-align: center;
+}
+
 .flex {
   display: flex;
 }
@@ -34,6 +38,14 @@ header img {
 
 .align-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .white {
@@ -67,4 +79,18 @@ header img {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 2rem;
+}
+
+#fig-exams, #fig-fittings, #fig-delivery {
+  height: 8rem;
+  margin: 3rem;
+  width: 5rem;
+}
+
+#fig-exams img {
+  width: 3.5rem;
+}
+
+#fig-fittings img, #fig-delivery img {
+  width: 5rem;
 }
