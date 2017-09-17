@@ -24,12 +24,11 @@ figcaption {
 
 footer {
   background-color: azure;
-  padding: 4rem;
 }
 
 footer img {
   height: 1.5rem;
-  margin-right: 1rem;
+  margin: 4rem 1rem 4rem 4rem;
 }
 
 .flex {
@@ -74,7 +73,6 @@ footer img {
 #navbar {
   background-color: cadetblue;
   margin-top: 1rem;
-  justify-content: space-between;
 }
 
 #header-img {
@@ -126,4 +124,32 @@ footer img {
   margin-bottom: 1rem;
   margin-right: auto;
   width: 10rem;
+}
+
+/* ---------- Tablets ---------- */
+
+@media only screen and (max-width: 1120px) {
+  .site-container {
+    width: 100%;
+  }
+
+  #header-img {
+    height: 22rem;
+  }
+
+  #navbar {
+    margin-top: 0;
+  }
+
+  #img-text {
+    margin-right: 2rem;
+    margin-top: 5rem;
+    padding: 1.75rem 4rem; /* Redline shows 0.75rem, 4rem but
+                              it looks wrong. This makes it look
+                              more like the prompt, visually. */
+  }
+
+  #img-text span {
+    font-size: 1.33rem;
+  }
 }
