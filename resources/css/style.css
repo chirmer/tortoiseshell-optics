@@ -4,11 +4,11 @@ html, p, figcaption {
   font-family: Helvetica, sans-serif;
 }
 
-header nav {
+header nav, #nav-mobile {
   margin: 1rem 0;
 }
 
-header nav a {
+header nav a, #nav-mobile {
   margin-right: 2rem;
 }
 
@@ -126,6 +126,10 @@ footer img {
   width: 10rem;
 }
 
+#nav-mobile {
+  display: none;
+}
+
 /* ---------- Tablets ---------- */
 
 @media only screen and (max-width: 1120px) {
@@ -151,5 +155,53 @@ footer img {
 
   #img-text span {
     font-size: 1.33rem;
+  }
+}
+
+/* ---------- Mobile ---------- */
+
+@media only screen and (max-width: 675px) {
+  #nav-mobile {
+    display: inherit;
+  }
+
+  #nav-links {
+    display: none;
+  }
+
+  #header-img {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  #figures {
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem auto;
+  }
+
+  #img-text {
+    margin-top: 9rem;
+    padding: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  #fig-exams, #fig-fittings, #fig-delivery {
+    margin: 0 0 1.54rem 0;
+  }
+
+  #fig-fittings, #fig-delivery {
+    height: 6rem;
+  }
+
+  section {
+    display: block;
+    width: 100%;
+  }
+
+  figcaption p {
+    font-size: 0.77rem;
   }
 }
