@@ -204,4 +204,35 @@ footer img {
   figcaption p {
     font-size: 0.77rem;
   }
+
+  #text-areas {
+    flex-direction: column;
+  }
+
+  #philosophy, #appointments {
+    max-width: 100%;
+  }
+
+  #philosophy h1, #appointments h1 {
+    width: 90%;
+    margin: 0;
+  }
+
+  #text-areas p {
+    margin: 1rem 0.5rem;
+    font-size: 0.77rem;
+    margin-bottom: 2rem;
+  }
+
+  footer p {
+    display: none;
+  }
+
+  footer {
+    justify-content: center;
+  }
+
+  footer img {
+    margin: 4rem;
+  }
 }
